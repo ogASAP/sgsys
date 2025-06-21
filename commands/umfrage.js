@@ -57,7 +57,7 @@ module.exports = {
     const embed = new EmbedBuilder()
       .setTitle('📊 Neue Umfrage')
       .setDescription(`**${frage}**\n\nBitte stimme durch Klicken eines Buttons ab.`)
-      .setColor('#5865F2')
+      .setColor('#70407b')
       .setAuthor({
         name: `Umfrage gestartet von ${interaction.user.tag}`,
         iconURL: interaction.user.displayAvatarURL(),

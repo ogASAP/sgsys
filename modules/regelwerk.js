@@ -11,7 +11,7 @@ module.exports = (client) => {
       }
 
       const embed = new EmbedBuilder()
-        .setColor('#000000')
+        .setColor('#70407b')
         .setTitle('📃 Regelwerk')
         .setDescription('Bitte halte dich an folgende Regeln sonst Schutzgeld!')
         .addFields(
