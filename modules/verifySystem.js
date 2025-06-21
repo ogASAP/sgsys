@@ -21,7 +21,7 @@ module.exports = (client) => {
         .setFooter({
           text: `${client.user.username} • Verifizierungssystem`,
         })
-        .setImage('https://i.postimg.cc/KYQkGHWQ/standard.gif')
+        .setImage('https://i.postimg.cc/fWjh0xhh/sg2.gif')
         .setTimestamp();
 
       const button = new ButtonBuilder()

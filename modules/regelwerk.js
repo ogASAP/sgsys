@@ -23,7 +23,7 @@ module.exports = (client) => {
           { name: '§ 7: IP-Logger und Viren', value: 'Das Verwenden von IP-Loggern und Viren ist verboten!', inline: false },
           { name: 'Hinweis', value: 'Verstöße können zum Ausschluss führen.', inline: false }
         )
-        .setImage('https://i.postimg.cc/KYQkGHWQ/standard.gif')
+        .setImage('https://i.postimg.cc/fWjh0xhh/sg2.gif')
         .setFooter({ text: 'Automatischer Embed vom BOSS ASAP', iconURL: client.user.displayAvatarURL() })
         .setTimestamp();
 

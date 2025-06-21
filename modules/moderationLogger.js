@@ -6,7 +6,7 @@ module.exports = (client, { moderationLogChannelId }) => {
   }
 
   const FOOTER_TEXT = 'Moderations-Log • Schutzgeld | System';
-  const FOOTER_ICON = 'https://i.postimg.cc/KYQkGHWQ/standard.gif';
+  const FOOTER_ICON = 'https://i.postimg.cc/fWjh0xhh/sg2.gif';
 
   async function sendLog(embed) {
     const channel = await client.channels.fetch(moderationLogChannelId).catch(() => null);

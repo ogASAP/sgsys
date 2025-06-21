@@ -61,7 +61,7 @@ module.exports = (client) => {
           '**• Schutzgeld - Werde ein strammer Schutzgeld eintreiber**\n' +
           '**• Beschwerde - Melde einen PIC**'
         )
-        .setImage('https://i.postimg.cc/KYQkGHWQ/standard.gif')
+        .setImage('https://i.postimg.cc/fWjh0xhh/sg2.gif')
         .setFooter({
           text: `Ticket-System | ${user.tag} | ${dateTimeString}`,
           iconURL: user.displayAvatarURL({ extension: 'png', size: 64 }),

@@ -65,7 +65,7 @@ module.exports = {
       .setThumbnail('https://cdn-icons-png.flaticon.com/512/1380/1380338.png')
       .setFooter({
         text: `⏳ Laufzeit: ${dauer} Sekunden • Schutzgeld | System`,
-        iconURL: 'https://i.postimg.cc/KYQkGHWQ/standard.gif',
+        iconURL: 'https://i.postimg.cc/fWjh0xhh/sg2.gif',
       })
       .setTimestamp();
 
@@ -116,7 +116,7 @@ module.exports = {
         })
         .setFooter({
           text: `Auswertung • SchutzgeldSecurity`,
-          iconURL: 'https://i.postimg.cc/KYQkGHWQ/standard.gif',
+          iconURL: 'https://i.postimg.cc/fWjh0xhh/sg2.gif',
         })
         .setTimestamp();
 
