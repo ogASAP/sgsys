@@ -5,7 +5,7 @@ module.exports = (client) => {
   const GUILD_ID = '1227633251208925275';
   const CHANNEL_ID = '1383385047176052849';
 
-  let EMBED_COLOR = '#70407b';
+  let EMBED_COLOR = '#6e4777';
 
   const TEAM_ROLE_IDS = [
     '1383038807326195773', // Inhaber
@@ -30,7 +30,7 @@ module.exports = (client) => {
       .sort((a, b) => b.position - a.position);
 
     const embed = new EmbedBuilder()
-      .setTitle('🛡️ Unser Team')
+      .setTitle('🛡️ Teamliste')
       .setFooter({ text: 'Automatisch generiert', iconURL: client.user.displayAvatarURL() })
       .setTimestamp()
       .setColor(EMBED_COLOR);
@@ -72,7 +72,7 @@ module.exports = (client) => {
     const found = messages.find(msg =>
       msg.author.id === client.user.id &&
       msg.embeds.length > 0 &&
-      msg.embeds[0].title === '🛡️ Unser Team'
+      msg.embeds[0].title === '🛡️ Teamliste'
     );
 
     if (found) cachedMessageId = found.id;

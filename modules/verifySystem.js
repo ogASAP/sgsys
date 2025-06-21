@@ -15,7 +15,7 @@ module.exports = (client) => {
       }
 
       const embed = new EmbedBuilder()
-        .setColor('#70407b')
+        .setColor('#6e4777')
         .setTitle('🔐 Verifizierung erforderlich')
         .setDescription('Um Zugriff auf den Server zu erhalten, musst du dich verifizieren.\n\nKlicke einfach auf den Button unten und du bekommst automatisch deine Rolle.')
         .setFooter({

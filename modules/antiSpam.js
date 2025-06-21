@@ -26,7 +26,7 @@ module.exports = (client) => {
       }
 
       const embed = new EmbedBuilder()
-        .setColor('#70407b')
+        .setColor('#6e4777')
         .setTitle('🚨 Spam erkannt')
         .setDescription(`<@${message.author.id}> wurde wegen Spam für 1 Minute gemuted.`)
         .setFooter({ text: 'Anti-Spam System', iconURL: client.user.displayAvatarURL() })
