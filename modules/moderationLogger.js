@@ -24,7 +24,7 @@ module.exports = (client, { moderationLogChannelId }) => {
   client.on('clear', async ({ user, channel, amount }) => {
     const embed = new EmbedBuilder()
       .setTitle('**Clear-Log**')
-      .setColor('#6e4777')
+      .setColor('#5a0164')
       .addFields({
         name: '\u200b',
         value:

@@ -5,7 +5,7 @@ module.exports = (client) => {
   const GUILD_ID = '1227633251208925275';
   const CHANNEL_ID = '1383385047176052849';
 
-  let EMBED_COLOR = '#6e4777';
+  let EMBED_COLOR = '#5a0164';
 
   const TEAM_ROLE_IDS = [
     '1383038807326195773', // Inhaber

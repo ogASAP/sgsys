@@ -52,7 +52,7 @@ module.exports = (client) => {
       });
 
       const embed = new EmbedBuilder()
-        .setColor('#6e4777')
+        .setColor('#5a0164')
         .setTitle('📩 Support Ticket System')
         .setDescription(
           'Bitte wähle unten den Grund für dein Ticket aus.\n' +
@@ -121,7 +121,7 @@ module.exports = (client) => {
       const closeRow = new ActionRowBuilder().addComponents(closeTicketButton);
 
       const ticketEmbed = new EmbedBuilder()
-        .setColor('#6e4777')
+        .setColor('#5a0164')
         .setTitle(`🧾 Ticket erstellt – ${user.username}`)
         .setDescription(
           `👋 **Hey <@${user.id}>!**\n\n` +
